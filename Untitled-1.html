@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Im Vahn Harvey Banilad | My Personal Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: #f4f6f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #111827;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        header p {
+            opacity: 0.8;
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #3b82f6;
+        }
+
+        section {
+            padding: 60px 10%;
+        }
+
+        .about, .projects, .contact {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #111827;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .project-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            transition: 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .contact a {
+            display: inline-block;
+            margin-right: 15px;
+            text-decoration: none;
+            color: white;
+            background: #3b82f6;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .contact a:hover {
+            background: #2563eb;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #111827;
+            color: white;
+            margin-top: 40px;
+        }
+
+        @media(max-width: 768px) {
+            section {
+                padding: 40px 5%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Hi! Im Vahn Harvey Banilad </h1>
+    <p>Web Developer | Designer | Creator</p>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+        Hello! I'm Vahn Harvey Banilad, Im 17 years old and I am a Senior High Student at Padre Pio Child
+        Development School. My Hobbies include playing video games, watching movies, and learning new things about programming.
+        My Dream Job is to become a Software Engineer and work for a big tech company like Google, Microsoft, or Apple. I am passionate about technology and I am always eager to learn and grow in the field of programming.
+    </p>
+</section>
+
+<section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+        <div class="project-card">
+            <h3>Project One</h3>
+            <p>A short description of your project goes here.</p>
+        </div>
+        <div class="project-card">
+            <h3>Project Two</h3>
+            <p>A short description of your project goes here.</p>
+        </div>
+        <div class="project-card">
+            <h3>Project Three</h3>
+            <p>A short description of your project goes here.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    
+</section>
+
+<footer>
+    <p>© 2026 Vahn Harvey Banilad. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
